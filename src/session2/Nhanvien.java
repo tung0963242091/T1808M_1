@@ -39,7 +39,7 @@ public class Nhanvien {
         if(workingtime >= 200) {
             thuong= salary*20/100;
         }else if (workingtime < 200 && workingtime >=100) {
-            thuong = salary*10/100
+            thuong = salary*10/100;
         }
         return thuong;
     }
